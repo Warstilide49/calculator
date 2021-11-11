@@ -1,0 +1,57 @@
+/*
+*{
+  border:2px solid green;
+}
+*/
+body{
+  background-color: #222831;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#container{
+  flex: 1;
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+  width:270px;
+}
+
+#result{
+  flex-shrink: 0;
+  background-color: peachpuff;
+  height: 100px;
+  width: 300px;
+  margin-left:474px;
+  padding-left: 20px;
+  font-size: 24px;
+  border: 2px solid green;
+}
+
+button{
+  font-size:25px;
+  width:60px;
+  color: black;
+  height: 70px;
+}
+
+.row{
+  flex:1;
+  display:flex;
+  justify-content: center;
+  gap:5px;
+}
+
+.numbers{
+  background-color: #EEEEEE;
+}
+
+.operators{
+  background-color:#00ADB5;
+}
+
+.rest{
+  background-color:#393E46;
+  color: white;
+}
